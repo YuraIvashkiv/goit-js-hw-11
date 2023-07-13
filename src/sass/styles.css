@@ -1,3 +1,7 @@
+body {
+    background-color: aquamarine;
+}
+
 .query-to-axios {
     /* border-style: none; */
     outline: 5px;
@@ -14,14 +18,25 @@
     align-items: center;
 }
 
+input[type='text'] {
+    border-radius: 23px;
+    border-color: rgb(214, 10, 58);
+}
+
+
 .submit {
     /* border-style: none; */
     width: 80px;
     margin-top: 50px;
     margin-left: 20px;
-    background-color: rgb(192, 214, 248);
     height: 30px;
+}
 
+button[type='submit'] {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: pink;
+    background-color: blue;
+    border-radius: 20px;
 }
 
 .newsWrapper {
@@ -56,4 +71,23 @@
     display: none;
     pointer-events: none;
     visibility: 1;
+}
+
+.gallery {
+    margin-top: 10px;
+}
+
+.photo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-card img {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 10px;
 }

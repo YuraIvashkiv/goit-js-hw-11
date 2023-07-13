@@ -66,7 +66,7 @@ function createMarkup(data) {
         comments,
         downloads,
       }) => `<div class="photo-card">
-  <img src="${webformatURL}" alt="${tags}" loading="lazy" data-original="${largeImageURL}"/>
+  <img src="${webformatURL}" alt="${tags}" loading="lazy" data-original="${largeImageURL}" style = "border-radius: 10px"; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); width = 350px/>
   <div class="info">
     <p class="info-item">
       <b>Likes:</b>${likes}
